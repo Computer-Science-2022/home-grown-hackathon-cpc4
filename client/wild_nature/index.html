@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wild Nature</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/global.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+	<script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<section id="header">
+				<nav class="navbar navbar-fixed-top">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header page-scroll">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a href="#" class="navbar-brand">Wild Nature</a>
+						</div>
+			
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="hidden">
+									<a href="#page-top"></a>
+								</li>
+								<li>
+									<a class="page-scroll font_tag" href="#center">Home</a>
+								</li>
+								<li>
+									<a class="page-scroll font_tag" href="#about">About</a>
+								</li> 
+								
+								<li>
+									<a class="page-scroll font_tag" href="#hi">Tracker</a>
+								</li>
+								
+								<li>
+									<a class="page-scroll font_tag" href="#contact">Contact</a>
+								</li>
+								<li>
+									<a class="page-scroll font_tag_1" href="#"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block"><i class="fa fa-user"></i></button></a>
+								</li>
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.container-fluid -->
+				</nav>
+				<div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+			<h3 class="modal-title" id="lineModalLabel">My Modal</h3>
+		</div>
+		<div class="modal-body">
+			
+            <!-- content goes here -->
+			<form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" id="exampleInputFile">
+                <p class="help-block">Example block-level help text here.</p>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Check me out
+                </label>
+              </div>
+              <h5><a class="button_1" href="#">Submit</a></h5>
+            </form>
+
+		</div>
+		<div class="modal-footer">
+			<div class="btn-group btn-group-justified" role="group" aria-label="group button">
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default" data-dismiss="modal" role="button">Close</button>
+				</div>
+				<div class="btn-group btn-delete hidden" role="group">
+					<button type="button" id="delImage" class="btn btn-default btn-hover-red" data-dismiss="modal" role="button">Delete</button>
+				</div>
+				<div class="btn-group" role="group">
+					<button type="button" id="saveImage" class="btn btn-default btn-hover-green" data-action="save" role="button">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+         </section>
+		 
+<section id="center" class="center_home"> 
+ <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+	  <!-- Overlay -->
+	  <div class="overlay"></div>
+	
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+		<li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+		<li data-target="#bs-carousel" data-slide-to="1" class=""></li>
+		<li data-target="#bs-carousel" data-slide-to="2" class=""></li>
+	  </ol>
+	  
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+
+		<div class="item slides active">
+		  <div class="slide-1"></div>
+		  <div class="hero">
+			<h1 class="mgt">Protect Wildlife</h1>
+			<hr>
+			<h3>We Move The World To Protect Animals</h3>
+			<h4><a class="button" href="#">View More</a></h4>
+		  </div>
+		</div>
+		<div class="item slides">
+		  <div class="slide-2"></div>
+		  <div class="hero">
+			<h1 class="mgt">Animals Foundation</h1>
+			<hr>
+			<h3>We Move The World To Protect Animals</h3>
+			<h4><a class="button" href="#">View More</a></h4>
+		  </div>
+		</div>
+		<div class="item slides">
+		  <div class="slide-3"></div>
+		  <div class="hero">
+			<h1 class="mgt">Discover Wildlife</h1>
+			<hr>
+			<h3>We Move The World To Protect Animals</h3>
+			<h4><a class="button" href="#">View More</a></h4>
+		  </div>
+		</div>
+	  </div> 
+	</div>
+</section>
+
+<section id="about">
+ <div class="container">
+  <div class="row">
+   <div class="about_1 clearfix">
+     <div class="col-sm-5 space_right">
+    <div class="about_left clearfix">
+	 <img src="img/4.jpg" class="iw" alt="abc">
+	</div>
+   </div>
+     <div class="col-sm-7 space_left">
+    <div class="about_right clearfix">
+	 <h3 class="mgt">About Creature</h3>
+	 <p> WORKING ON ENVIRONMENTAL HELPING ANIMALS &ISSUES.</p>
+	 <div class="about_right_i clearfix">
+	  <div class="col-sm-2">
+	   <div class="about_right_il text-center clearfix">
+	    <span><i class="fa fa-share-alt"></i></span>
+	   </div>
+	  </div>
+	  <div class="col-sm-10">
+	   <div class="about_right_ir clearfix">
+	    <h4 class="mgt">GOAl</h4>
+		<p>Lo sea takimata sanctus est Lorem ipolor sit amet, no sea takimata sanctus est Loremsum dolor sit amet.</p>
+	   </div>
+	  </div>
+	 </div>
+	 <div class="about_right_i clearfix">
+	  <div class="col-sm-2">
+	   <div class="about_right_il text-center clearfix">
+	    <span><i class="fa fa-laptop"></i></span>
+	   </div>
+	  </div>
+	  <div class="col-sm-10">
+	   <div class="about_right_ir clearfix">
+	    <h4 class="mgt">Vision</h4>
+		<p>Lo sea takimata sanctus est Lorem ipsum dolorsita.Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren.</p>
+	   </div>
+	  </div>
+	 </div>
+	</div>
+   </div>
+   </div>
+   <div class="about_1 clearfix">
+     <div class="col-sm-7 space_right">
+    <div class="about_right bg_1 clearfix">
+	 <h3 class="mgt">Saving Animals</h3>
+	 <p>HELPING ANIMALS & WORKING ON ENVIRONMENTAL ISSUES.</p>
+	 <div class="about_right_i clearfix">
+	  <div class="col-sm-2">
+	   <div class="about_right_il text-center clearfix">
+	    <span><i class="fa fa-share-alt"></i></span>
+	   </div>
+	  </div>
+	  <div class="col-sm-10">
+	   <div class="about_right_ir clearfix">
+	    <h4 class="mgt">Dapibus Diam</h4>
+		<p>Lo sea takimata sanctus est Lorem ipolor sit amet, no sea takimata sanctus est Loremsum dolor sit amet.</p>
+	   </div>
+	  </div>
+	 </div>
+	 <div class="about_right_i clearfix">
+	  <div class="col-sm-2">
+	   <div class="about_right_il text-center clearfix">
+	    <span><i class="fa fa-laptop"></i></span>
+	   </div>
+	  </div>
+	  <div class="col-sm-10">
+	   <div class="about_right_ir clearfix">
+	    <h4 class="mgt">Nibh Elementum</h4>
+		<p>Lo sea takimata sanctus est Lorem ipsum dolorsita.Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren.</p>
+	   </div>
+	  </div>
+	 </div>
+	</div>
+   </div>
+     <div class="col-sm-5 space_left">
+    <div class="about_left clearfix">
+	 <img src="img/5.jpg" class="iw" alt="abc">
+	</div>
+   </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="protect">
+ <div class="protect_m clearfix">
+  <div class="container">
+   <div class="row">
+    <div class="protect_1 clearfix">
+	 <div class="col-sm-12">
+	   <h1 class="mgt col">We Move The World To Protect Animals</h1>
+	   <p class="col">Vestibulum volutpat non eros ut vulputate. Nunc id risus accumsan Donec mi nulla, auctor nec sem a, ornare<br> auctor mi. Sed mi tortor, commodo a felis in, fringilla tincidunt nulla.</p>
+	 </div>
+	</div>
+	<div class="protect_2 clearfix">
+	 <div class="col-sm-4">
+       <div class="protect_2i clearfix">
+	    <span class="col"><i class="fa fa-smile-o"></i></span>
+		<h2 class="col">237</h2>
+		<h5 class="col">VOLUNTEERS</h5>
+	   </div>
+	 </div>
+	 <div class="col-sm-4">
+       <div class="protect_2i clearfix">
+	    <span class="col"><i class="fa fa-users"></i></span>
+		<h2 class="col">290</h2>
+		<h5 class="col">PROJECTS</h5>
+	   </div>
+	 </div>
+	 <div class="col-sm-4">
+       <div class="protect_2i clearfix">
+	    <span class="col"><i class="fa fa-database"></i></span>
+		<h2 class="col">2972</h2>
+		<h5 class="col">DONARS</h5>
+	   </div>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="contri">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+    <div class="contri_1 text-center">
+	 <h3 class="mgt">Over 70% Of Donations Made To Us Directly Impact Animals In The Wild</h3><br>
+	 <h5><a class="button_1" href="#">Contact Us</a></h5>
+	 <h5><a class="button_1" href="#">Make a Contribution</a></h5>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+
+
+
+
+<section id="contact">
+ <div class="container">
+  <div  class="row">
+   <div class="feature_1 text-center clearfix">
+	   <div class="col-sm-12">
+		<h3 class="mgt">CONTACT US</h3>
+		<p>HELPING ANIMALS &amp; WORKING ON ENVIRONMENTAL ISSUES.</p>
+	   </div>
+       </div>
+   <div class="contact_1 clearfix">
+    <div class="col-sm-5">
+	 <div class="contact1lt text-center clearfix">
+	  <h3 class="col_1">Get In Touch</h3>
+	 </div>
+	 <div class="contact_1l text-center clearfix">
+	   <span><i class="fa fa-envelope"></i></span>
+	   <h6><a href="#">info@gmail.com</a></h6>
+	   <h6><a href="#">info@gmail1.com</a></h6>
+	   <h6><a href="#">info@gmail2.com</a></h6>
+	 </div>
+	 <div class="contact_1l text-center clearfix">
+	   <span><i class="fa fa-phone"></i></span>
+	   <h6>+123 123 7890</h6>
+	   <h6>+123 123 7890</h6>
+	   <h6>+123 123 7890</h6>
+	 </div>
+	 <div class="contact_1l text-center clearfix">
+	   <span><i class="fa fa-home"></i></span>
+	   <h6>1096 N Highland St,</h6>
+	   <h6>Arlington VA</h6>
+	   <h6>130xz, USA</h6>
+	 </div>
+	</div>
+	<div class="col-sm-7">
+	 <div class="contact1lt text-center clearfix">
+	  <h3 class="col_1">Contact Form</h3>
+	 </div>
+	 <div class="contact_1r clearfix">
+	  <div class="contact_1ri clearfix">
+	   <h6 class="mgt">Your Name</h6>
+	   <input class="form-control" type="text">
+	    <h6>Mobile</h6>
+	   <input class="form-control" type="text">
+	    <h6>Email</h6>
+	   <input class="form-control" type="text">
+	    <h6>Your Message</h6>
+	   <textarea class="form-control form_1"></textarea>
+	   <h5 class="text-center"><a class="button_1" href="#">SEND</a></h5>
+	  </div>
+	 </div>
+	</div>
+   </div>
+   <div class="contact_2 clearfix" id = "hi">
+    <div class="col-sm-12">
+	 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.53925916665!2d-80.29949920266738!3d25.782390733064336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C+FL%2C+USA!5e0!3m2!1sen!2sin!4v1530774403788" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="footer_top">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-4">
+    <div class="footer_top_1">
+	  <h3 class="mgt col"> Wild Nature</h3>
+	  <p class="col_2">Class aptent taciti sociosqu ad litora per conubia nostra, per inceptos himenaeos dignissim lacinia nunc!</p>
+	  <h6 class="col_2"><i class="fa fa-map-marker"></i>    200 Litora Jy, Himenaeos, AC, BS</h6>
+	  <h6 class="col_2"><i class="fa fa-phone"></i>   <a class="col_2" href="#"> 0-123-456-7890</a></h6>
+	  <h6 class="col_2"><i class="fa fa-envelope"></i>   <a class="col_2" href="#">info@gmail.com</a></h6>
+	</div>
+   </div>
+   <div class="col-sm-4">
+    <div class="footer_top_2">
+	 <h3 class="mgt col"> Recent Blogs</h3>
+	 <p><a class="col_2" href="#"> Litora Per Conubia  Per Inceptos Himenaeos?</a></p>
+	 <h5 class="col_1">4 October, 2017</h5>
+	 <p><a class="col_2" href="#">Sed Cursus Ante Nulla Quis Sem At Nibh?</a></p>
+	 <h5 class="col_1">4 October, 2017</h5>
+	 <p><a class="col_2" href="#">Fusce Nec Tellus Sed Augue Semper Porta Mauris Massa?</a></p>
+	 <h5 class="col_1">4 October, 2017</h5>
+	</div>
+   </div>
+   <div class="col-sm-4">
+    <div class="footer_top_3">
+	  <h3 class="col mgt">Get Your Solutions!</h3>
+	 <p class="col_2">
+Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla!</p>
+<input type="text" class="form-control" placeholder="Enter Your Email *">
+<h5><a class="button" href="#">Submit</a></h5>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="footer_bottom">
+ <div class="container">
+  <div class="row">
+   <div class="footer_bottom clearfix">
+    <div class="col-sm-7">
+	 <div class="footer_bottom_left">
+	  <p class="mgt col_2"> © 2013 Your Website Name. All Rights Reserved | Design by <a class="col_1" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+	 </div>
+	</div>
+	<div class="col-sm-5">
+	  <div class="footer_bottom_right text-right">
+	   <ul class="social-network social-circle mgt">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+	  </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<div id="toTop" class="btn btn-info" style="display: block; background:#d3b800; color:#000; border:none;"><span class="fa fa-chevron-up"></span></div>
+
+<script>
+$(document).ready(function(){
+  $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span> Back to Top</div>');
+	$(window).scroll(function () {
+		if ($(this).scrollTop() != 0) {
+			$('#toTop').fadeIn();
+		} else {
+			$('#toTop').fadeOut();
+		}
+	}); 
+$('#toTop').click(function(){
+	$("html, body").animate({ scrollTop: 0 }, 600);
+	return false;
+});
+});
+
+</script>
+
+<script type="text/javascript" src="js/simple-lightbox.js"></script>
+<script>
+	$(function(){
+		var $gallery = $('.gallery a').simpleLightbox();
+
+		$gallery.on('show.simplelightbox', function(){
+			console.log('Requested for showing');
+		})
+		.on('shown.simplelightbox', function(){
+			console.log('Shown');
+		})
+		.on('close.simplelightbox', function(){
+			console.log('Requested for closing');
+		})
+		.on('closed.simplelightbox', function(){
+			console.log('Closed');
+		})
+		.on('change.simplelightbox', function(){
+			console.log('Requested for change');
+		})
+		.on('next.simplelightbox', function(){
+			console.log('Requested for next');
+		})
+		.on('prev.simplelightbox', function(){
+			console.log('Requested for prev');
+		})
+		.on('nextImageLoaded.simplelightbox', function(){
+			console.log('Next image loaded');
+		})
+		.on('prevImageLoaded.simplelightbox', function(){
+			console.log('Prev image loaded');
+		})
+		.on('changed.simplelightbox', function(){
+			console.log('Image changed');
+		})
+		.on('nextDone.simplelightbox', function(){
+			console.log('Image changed to next');
+		})
+		.on('prevDone.simplelightbox', function(){
+			console.log('Image changed to prev');
+		})
+		.on('error.simplelightbox', function(e){
+			console.log('No image found, go to the next/prev');
+			console.log(e);
+		}); 
+	});
+</script>
+
+	
+</body>
+ 
+</html>
