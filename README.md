@@ -8,15 +8,16 @@ The project focus on two grand challenges , climate change and Wildlife conserva
 We used Nodejs , MongoDB ,Express for ApI 
 This in the tracker code where and Admin can add the animal to track , and the data of the location trends aare saved in the database MongoDB
 For the from end we used , basic HTML/CSS and JS
-# Install dependencies
+
+Install dependencies
 npm install
 
-# Serve on localhost:3000
+Serve on localhost:3000
 npm run dev (nodemon)
 or
 npm start
 
-# Routes
+Routes
 GET    /api/v1/animals # Get animals being tracked on the map
 
 POST   /api/v1/animals # Add animal to be tracked 
@@ -30,16 +31,7 @@ Slides Presentation:  https://www.canva.com/design/DAE_8IdsS38/yP9hNtdmsN0CDcbue
 
 Video Presentation:
 
-Install dependencies
-npm install
 
-Serve on localhost:3000
-npm run dev (nodemon) or npm start
-
-Routes
-GET /api/v1/animals # Get animals being tracked on the map
-
-POST /api/v1/animals # Add animal to be tracked body { animalId: "0001", currentLocation: "Lake Victoria" }
 
 
 
