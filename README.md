@@ -30,7 +30,7 @@ body { animalId: "0001", currentLocation: "Lake Victoria" }
 
 Slides Presentation:  https://www.canva.com/design/DAE_8IdsS38/yP9hNtdmsN0CDcbueSGmSw/view?utm_content=DAE_8IdsS38&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink   
 
-Video Presentation: https://docs.google.com/document/d/1n23Tu5jK6SrJl3jjwC9zpp0i64i1S2EFk6N5zUkZRdw/edit
+Video Presentation: https://drive.google.com/file/d/1nRbSHe13_62Iltfn0g16W03mNmbLISDH/view?usp=sharing 
 
 
 
