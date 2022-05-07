@@ -1,4 +1,4 @@
-#The Great Lake Seraphim project
+# The Great Lake Seraphim project
 About 
 This an animal tracker project that 
 
