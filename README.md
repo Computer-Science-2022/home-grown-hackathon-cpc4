@@ -30,6 +30,19 @@ Slides Presentation:  https://www.canva.com/design/DAE_8IdsS38/yP9hNtdmsN0CDcbue
 
 Video Presentation:
 
+Install dependencies
+npm install
+
+Serve on localhost:3000
+npm run dev (nodemon) or npm start
+
+Routes
+GET /api/v1/animals # Get animals being tracked on the map
+
+POST /api/v1/animals # Add animal to be tracked body { animalId: "0001", currentLocation: "Lake Victoria" }
+
+
+
 
 
 
