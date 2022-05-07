@@ -1,2 +1,8 @@
-# home-grown-hackathon-cpc4
-home-grown-hackathon-cpc4 created by GitHub Classroom
+#The Great Lake Seraphim project
+About 
+This an animal tracker project that 
+
+#Quick start 
+
+#Documentation
+
